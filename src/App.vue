@@ -1,26 +1,38 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div>
+ <el-row :gutter="20">
+    <el-col :span="6">
+      <div class="grid-content ep-bg-purple-dark" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate, iure rerum nulla nisi cupiditate iste eos minus nobis recusandae reiciendis? Facilis expedita quisquam eius dolorum quo culpa accusantium pariatur consequatur sed beatae quod vel voluptatem magni magnam, soluta eum repellendus id fuga quis quam assumenda? Eos, debitis?
+      </div>
+      </el-col>
+        <el-col :span="6" :offset="6">
+      <div class="grid-content ep-bg-purple-dark" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate, iure rerum nulla nisi cupiditate iste eos minus nobis recusandae reiciendis? Facilis expedita quisquam eius dolorum quo culpa accusantium pariatur consequatur sed beatae quod vel voluptatem magni magnam, soluta eum repellendus id fuga quis quam assumenda? Eos, debitis?
+      </div>
+      </el-col>
+      <el-col :span="6">
+      <div class="grid-content ep-bg-purple-dark" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate, iure rerum nulla nisi cupiditate iste eos minus nobis recusandae reiciendis? Facilis expedita quisquam eius dolorum quo culpa accusantium pariatur consequatur sed beatae quod vel voluptatem magni magnam, soluta eum repellendus id fuga quis quam assumenda? Eos, debitis?
+      </div>
+      </el-col>
+  </el-row>
+
+</div>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+ 
 }
 </style>
